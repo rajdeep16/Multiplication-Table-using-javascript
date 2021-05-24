@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+	<h1>Welcome to exam qualifier</h1>
+	<br><br>
+<h2>please enter your attendence percentage</h2>
+<h6>Do not add percentage symbol</h6>
+<br><br>
+<p id="result"></p>
+
+
+    <br><br>
+	<button>Submit</button>
+	<script>
+		var attendance = prompt("Please enter your attendance percentage");
+		if (attendane < 60){
+			console.log("Eligible for examination");
+			document.getElementById('result').innerHTML = "you are eligible";
+
+		} else{
+			console.log("you arent eligible");
+			document.getElementById('result').innerHTML = "you arent eligible";
+		}
+	</script>
+
+</body>
+</html>
